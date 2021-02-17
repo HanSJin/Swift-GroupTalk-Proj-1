@@ -13,6 +13,7 @@
 		CEE14B5A25DCF00700253CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE14B5825DCF00700253CAE /* Main.storyboard */; };
 		CEE14B5C25DCF00800253CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE14B5B25DCF00800253CAE /* Assets.xcassets */; };
 		CEE14B5F25DCF00800253CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE14B5D25DCF00800253CAE /* LaunchScreen.storyboard */; };
+		CEE14B6D25DCF0DB00253CAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CEE14B6C25DCF0DB00253CAE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEE14B5B25DCF00800253CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE14B5E25DCF00800253CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE14B6025DCF00800253CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE14B6C25DCF0DB00253CAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		CEE14B4625DCF00700253CAE = {
 			isa = PBXGroup;
 			children = (
+				CEE14B6C25DCF0DB00253CAE /* README.md */,
 				CEE14B5125DCF00700253CAE /* StudyProject1 */,
 				CEE14B5025DCF00700253CAE /* Products */,
 			);
@@ -58,13 +61,37 @@
 			children = (
 				CEE14B5225DCF00700253CAE /* AppDelegate.swift */,
 				CEE14B5425DCF00700253CAE /* SceneDelegate.swift */,
-				CEE14B5625DCF00700253CAE /* ViewController.swift */,
-				CEE14B5825DCF00700253CAE /* Main.storyboard */,
-				CEE14B5B25DCF00800253CAE /* Assets.xcassets */,
-				CEE14B5D25DCF00800253CAE /* LaunchScreen.storyboard */,
 				CEE14B6025DCF00800253CAE /* Info.plist */,
+				CEE14B6825DCF09500253CAE /* Views */,
+				CEE14B6925DCF0A100253CAE /* Storyboards */,
+				CEE14B6A25DCF0B400253CAE /* Resources */,
 			);
 			path = StudyProject1;
+			sourceTree = "<group>";
+		};
+		CEE14B6825DCF09500253CAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE14B5625DCF00700253CAE /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE14B6925DCF0A100253CAE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEE14B5825DCF00700253CAE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CEE14B6A25DCF0B400253CAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE14B5B25DCF00800253CAE /* Assets.xcassets */,
+				CEE14B5D25DCF00800253CAE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +153,7 @@
 			files = (
 				CEE14B5F25DCF00800253CAE /* LaunchScreen.storyboard in Resources */,
 				CEE14B5C25DCF00800253CAE /* Assets.xcassets in Resources */,
+				CEE14B6D25DCF0DB00253CAE /* README.md in Resources */,
 				CEE14B5A25DCF00700253CAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
